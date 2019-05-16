@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap 实例 - 标签页（Tab）插件</title>
+	<link rel="stylesheet" type="text/css" href="css/managemessage.css">
+	<link rel="stylesheet" type="text/css" href="css/answermessage.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<style>
+		.total{
+			width: 90%;
+			margin: 0 auto;
+			margin-top:20px;
+		}
+	</style>
+</head>
+<body>
+<div class="total">
+	<ul id="myTab" class="nav nav-tabs">
+		<li class="active">
+			<a href="#home" data-toggle="tab">
+				 添加留言
+			</a>
+		</li>
+		<li><a href="#ios" data-toggle="tab">留言管理</a></li>
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade in active" id="home">
+			<table border="1" class="table-bordered table-hover table-condensed">
+		<tr>
+			<th width="20%">标题：</th>
+			<th width="80%">留言</th>
+		</tr>
+		<tr>
+			<th>发布人：</th>
+			<th>匿名</th>
+		</tr>
+		<tr>
+			<th>内容：</th>
+			<th><textarea>留言内容</textarea></th>
+		</tr>
+		<tr>
+			<th>留言日期：</th>
+			<th>2017-11-11</th>
+		</tr>
+		<tr>
+			<th>回复：</th>
+			<th><img src="images/message.png" alt="" width="100%"></th>
+		</tr>
+
+	</table>
+		</div>
+		<div class="tab-pane fade" id="ios">
+			<div class="aa">
+	<table align="center" class="table-bordered table-hover table-condensed">
+		<tr>
+			<th>标题</th>
+			<th>发布人</th> 
+			<th>发布时间</th>
+			<th>状态</th> 
+			<th>回复</th>
+			<th>删除</th>
+		</tr>
+		<tr>
+			<td>留言</td>
+			<td>匿名</td>
+			<td>2017-11-11</td>
+			<td>未回复</td>
+			<td><a href="answermessage.html">回复</a></td>
+			<td><a href=""><span class="glyphicon glyphicon-trash"></span></a></td>
+		</tr>
+		<tr>
+			<td>留言</td>
+			<td>匿名</td>
+			<td>2017-11-11</td>
+			<td>未回复</td>
+			<td><a href="answermessage.html">回复</a></td>
+			<td><a href=""><span class="glyphicon glyphicon-trash"></span></a></td>
+		</tr>
+
+	</table>
+	<center>
+		<ul class="pagination">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">上一页</a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">下一页</a></li>
+		</ul>
+	</center>
+	</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

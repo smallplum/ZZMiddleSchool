@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>更新用户</title>
+	<link rel="stylesheet" type="text/css" href="css/updateuser.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/zhezhaoone.js"></script> 
+</head>
+<body> 
+	<form>
+		<table border="0" class="t1"> 
+			<tr>
+				<td width="80px" class="bb"><span>邮箱</span></td>
+				<td><input type="email" name="email" placeholder="asd@12"></td>
+			</tr>
+			<tr>
+				<td class="bb"><span>密码</span></td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td class="bb"><span>姓名</span></td>
+				<td><input type="text" name="name" placeholder="ewq"></td>
+			</tr>
+			<tr>
+				<td class="bb"><span>性别</span></td>
+				<td id="sex">
+					<input type="radio" value="1" name="sex"/><span>男</span>
+				    <input type="radio" value="2" name="sex"/><span>女</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="bb"><span>身份</span></td>
+				<td>
+					<select name="" id="cc">
+						<option>管理员</option>
+						<option>管理员</option>
+						<option>管理员</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<table border="0" class="t2">
+			<tr>
+				<td class="bb" width="20%"><span>联系方式</span></td>
+				<td><input type="num" name="" placeholder="187383556"></td>
+			</tr>
+			<tr>
+				<td class="bb"><span>照片</span></td>
+				<td><a href="#"><img src="images/strawberry.jpg" alt=""></a>
+					<input type="file" name="" ></td>
+			</tr>
+			<tr>
+				<td class="bb"><span>简介</span></td>
+				<td><a href="javascript:void(0)" id="content" onClick="show()">查看/修改简介</a></td>
+			</tr>
+			<tr>
+				<td class="bb"><span>成就</span></td>
+				<td><a href="javascript:void(0)" id="content1" onClick="show()">查看/修改成就</a></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="" value="提交" class="aa"></td>
+			</tr>
+		</table> 
+	</form>
+	<div id="hidebg" onClick='hide()'></div>
+	<div id="hidebox"><textarea></textarea><button onClick='hide()'>完成</button></div>
+	
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+	height: 0;
+	background: #ebebeb;
+}
+table{
+	margin-top: 8%;
+	border: 1px solid gray;
+}
+td{
+	text-align: center;
+	height: 30px;
+}
+th{
+	text-align: center;
+}

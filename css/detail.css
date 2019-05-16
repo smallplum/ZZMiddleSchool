@@ -1,0 +1,35 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #ebebeb;
+}	
+.aa{
+	width: 80%;
+	height: 260px;
+	margin:0 auto;
+	margin-top: 10%;
+}
+table{
+	width: 500px;
+	height: 200px;
+	margin:0 auto;
+	margin-top: 5%;
+	border-collapse: collapse;
+}
+.bb{
+	height: 100px;
+}
+.dd{
+	width: 100px;
+	height: 30px;
+	background:#2896ef;
+	border-radius: 8px;
+	color: white;
+}
+.cc{
+	width: 60px;
+	height: 30px;
+	background: #012349;
+	border-radius: 8px;
+	color: white;
+}

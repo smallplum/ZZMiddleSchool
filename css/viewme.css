@@ -1,0 +1,30 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #ebebeb;
+}
+table{
+	width:300px;
+	height:200px;
+	margin:0 auto;
+	margin-top: 10%;
+}
+a{
+	text-decoration: none; 
+}
+td{
+	text-align: center; 
+}
+img{
+	width: 30%;
+} 
+.bb span{
+	line-height: 100px;
+}
+span{
+	font-size: 18px;
+	font-weight: bold;
+}
+.aa:hover{
+	text-decoration: none;
+}

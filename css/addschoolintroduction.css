@@ -1,0 +1,27 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #ebebeb;
+}
+table{
+	width: 300px;
+	height: 200px;
+	margin:0 auto;
+	margin-top: 5%;
+}
+.aa{
+	width: 50px;
+	height: 30px;
+	background:#2896ef;
+	color: white;
+	border-radius: 8px;
+	margin-left: 40px;
+}
+input{
+	width: 200px;
+	height: 30px;
+}
+#bb{
+	width: 200px;
+	height: 30px;
+}

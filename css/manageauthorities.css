@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #ebebeb;
+}
+table{
+	margin: 0 auto;
+	margin-top: 5%;
+	 width:370px; height:450px;
+}
+td span{
+	font-size:22px;
+}
+td{
+	text-align: center;
+}
+.aa{
+	font-size: 24px;
+	color:#66B3FF;
+	 height:80px;width:420px;
+}
+button{
+	background: #66B3FF;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+	height: 30px;
+	margin-left: 20px;
+}

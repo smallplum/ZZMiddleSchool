@@ -1,0 +1,32 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #ebebeb;
+}
+.total{
+	width:500px;
+	height: 300px;
+	margin:0 auto;
+	margin-top: 10%;
+}
+table{
+	width: 90%;
+	height: 60%;
+	margin-left: 5%;
+	margin-top: 10%;
+	border-collapse: collapse;
+}
+td{
+	text-align: center;
+	padding: 5px 6px;
+}
+input{
+	width: 250px;
+	height: 30px;
+}
+button{
+	width:50px;
+	height: 30px;
+	background: #66B3FF;
+	border-radius: 5px;
+}

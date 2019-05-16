@@ -1,0 +1,30 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #ebebeb;
+}
+img{
+	width: 150px;
+	height: 150px;
+}
+table{
+	width: 400px;
+	height: 300px;
+	margin:0 auto;
+	margin-top: 6%;
+}
+.aa{
+	width: 50px;
+	margin-left: 90px;
+	cursor: pointer;
+	background:#2896ef;
+	color: white;
+}
+input{
+	width: 200px;
+	height: 30px;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	border:1px solid #ccc;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.mid{
+			width: 500px;
+			height: 90px;
+			background:#FF00FF;
+		}
+		.mid ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+		}
+		.mid ul li{
+			width: 100px;
+			height: 90px;
+			float: left;
+		}
+		.mid img{
+			width: 80%;
+			height: 60px;
+			margin-left: 10%;
+		}
+		span{
+			width:100px;
+			height:20px;
+			line-height:20px;
+			text-align:center;
+			display:block;
+			background: red;
+		}
+		.mid ul li a{
+			text-decoration: none;
+		}
+		#next{
+			width: 100px;
+			height:60px;
+			position: absolute;
+			display: none;
+		}
+		#next > li{
+    		text-align: center;
+    		margin-top: 6px;
+		}
+		#next > ul > li > a{
+			width: 100px;
+			height: 60px;
+			background: yellow;
+		}
+		.mid li:hover #next{		
+			display:block;		
+		}	
+
+	</style>
+</head>
+<body>
+	<div class="mid">
+		<ul>
+			<li>
+				<a href="">
+					<img src="images/sec1.png" alt="">
+					<span>留言板</span>
+				</a>
+				<div id="next">
+					<ul>
+						<li><a href="#" class="nextone">添加留言</a></li>
+						<li><a href="#" class="nexttwo">留言管理</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="images/sec2.png" alt="">
+					<span>公告</span>
+				</a>
+				<div id="next">
+					<ul>
+						<li><a href="#">添加公告</a></li>
+						<li><a href="#">管理公告</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="images/sec3.png" alt="">
+					<span>校园文学</span>
+				</a>
+				<div id="next">
+					<ul>
+						<li><a href="#">添加校园文学</a></li>
+						<li><a href="#">学生园地</a></li>
+						<li><a href="#">教师园地</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="images/sec4.png" alt="">
+					<span>资源下载</span>
+				</a>
+				<div id="next">
+					<ul>
+						<li><a href="#">上传资源</a></li>
+						<li><a href="#">资源管理</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="images/sec5.png" alt="">
+					<span>用户</span>
+				</a>
+				<div id="next">
+					<ul>
+						<li><a href="#">添加用户</a></li>
+						<li><a href="#">用户管理</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
+
+
+
+
+
+

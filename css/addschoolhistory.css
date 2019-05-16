@@ -1,0 +1,21 @@
+		body{
+			margin: 0;
+			padding: 0;
+			background: #ebebeb;
+		}
+		.demo{
+			width: 300px;
+			height: 300px;
+			/*border: 1px solid black;*/
+			margin-top: 10%;
+			margin-left: 35%;
+		}
+		.but{
+			background: #2896ef;
+			color: white;
+			margin-left: 30%;
+		}
+		.aa{
+			margin-left: 5%;
+		}
+	

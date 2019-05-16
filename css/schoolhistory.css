@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #ebebeb;
+}
+h1{
+	text-align: center;
+}
+.his{
+	width: 80%;
+	height: 600px;
+	margin:0 auto;
+	/*background-color:red;*/
+}
+.his img{
+	width: 100%;
+	height: 100%;
+}
+button{
+	background: #2896ef;
+	color: white;
+	float: right;
+	border-radius: 8px;
+	margin-right: 20%;
+	height: 30px;
+}
+a button{
+	cursor: pointer;
+}

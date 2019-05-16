@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>老师登录</title>
+	<link rel="stylesheet" type="text/css" href="css/indexone.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+			function reinitIframe(){
+		var iframe = document.getElementById("ifr");
+			try{
+		iframe.height =  iframe.contentWindow.document.documentElement.scrollHeight;
+		}catch (ex){}
+		}
+		window.setInterval("reinitIframe()", 200);
+	</script>
+	<style> 
+			@media (max-width: 900px){
+				.sidebar-collapse .nav > li > a {
+					font-size: 12px;	
+				}  
+				.two{
+					display: none; 
+				}
+			}
+			@media (max-width: 760px){
+				#date {
+					font-size:10px;
+				}
+			}
+	</style>
+</head>
+<body onload="getdates()">
+<div class="total">
+	<div class="topper">
+		<div class="one">
+			<img src="images/navone.png" alt="">
+		</div>  
+		<div class="mid"><p>欢迎老师登录</p></div>
+		<div class="two">  
+			<ul>
+			
+				<li><a href="login.html"><span class="glyphicon glyphicon-hand-right"></span>退出</a></li>
+				<li><div class="le_1"><a href="viewme.html" target="ie"><img src="images/teacher.jpg" alt=""></a></div></li>
+				
+			</ul>
+		</div> 
+	</div><!-- 头部结束 -->
+	<div class="box"><!-- 左侧菜单和iframe -->
+		<div class="sidebar-collapse">
+			<ul class="nav" id="main-menu">
+				<li>
+					<div id="date">
+					</div>
+				</li>
+				<!-- 教育教研管理 -->
+				<li class="lione">
+					<a href="" class="out"><span class="glyphicon glyphicon-tree-conifer"></span>&nbsp;&nbsp;教育教研</a>
+                    <ul class="nav nav-second-level">
+	                    <li>
+	                      <a href="adduser.html"  target="ie" class="out1"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;&nbsp;增加教育教研</a>
+	                    </li>
+	                    <li>
+	                      <a href="manageuser.html"  target="ie" class="out1"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;语文教研组</a>
+	                    </li>
+                    </ul>
+				</li>
+				<!-- 新闻管理 -->
+				<li class="lione">
+					<a href="" class="out"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;新闻管理</a>
+                    <ul class="nav nav-second-level">
+	                    <li>
+	                      <a href="addnews.html"  target="ie" class="out1"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;&nbsp;增加新闻</a>
+	                    </li>
+	                     <li>
+	                      <a href="manageschoolintroduction.html" class="out1" target="ie"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;&nbsp;学校简介管理</a>
+	                    </li>
+	                    <li>
+	                      <a href="manageauthorities.html"  target="ie" class="out1"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;领导机构管理</a>
+	                    </li>
+	                    <li>
+	                      <a href="schoolhistory.html" target="ie"  class="out1"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;&nbsp;建校历史管理</a>
+	                    </li>
+	                    <li>
+	                      <a href="schoolhonor.html" target="ie" class="out1"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;学校荣誉管理</a>
+	                    </li>
+	                    <li>
+	                      <a href="teachachievement.html" target="ie" class="out1"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;&nbsp;教学成果管理</a>
+	                    </li>
+	                    <li>
+	                      <a href="managescenery.html" target="ie" class="out1"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;校园风光管理</a>
+	                    </li>
+                    </ul>
+				</li>
+ 			</ul>
+		</div><!-- 左侧菜单 -->
+		<iframe src=""   id="ifr" name="ie">
+
+		</iframe><!-- iframe标签 -->
+	</div>
+	</div>
+</body>
+<script>
+		
+
+
+	$(document).ready(function(){
+        $('.out').click(function(e) {
+            $(this).next().stop().slideToggle()
+            e.preventDefault();
+        })
+        $('.out').hover(function(){
+   	 		$(this).css("backgroundColor", "white");
+ 		})
+ 		  $('.out1').hover(function(){
+   	 		$(this).css("backgroundColor", "#ebebeb");
+ 		})
+    });</script>
+</html>

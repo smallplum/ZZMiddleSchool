@@ -1,0 +1,36 @@
+	body{
+		margin: 0;
+		padding: 0;
+		background: #ebebeb;
+	}
+	.honor{
+			width:600px;
+			height: 500px;
+			/*border: 1px solid black;*/
+			margin-left: 20%;
+			margin-top: 6%;
+		} 
+		.col-sm-9 input{
+			width: 300px;
+		}
+		.but{
+			background:#2896ef;
+			color: white;
+			border-radius: 8px;
+			margin-left: 40%;
+			margin-top: 6%;
+		}
+		.php{
+			width: 80%;
+			height: 220px;
+			/*background-color: red;*/
+			margin-left: 10%;
+			margin-top: 40px;
+		}
+		img{
+			margin-left: 20px;
+			border: 1px solid black;
+		}
+		a img{
+			cursor: pointer;
+		}	}

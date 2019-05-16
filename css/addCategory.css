@@ -1,0 +1,48 @@
+	
+		body{ 
+			margin: 0;
+			padding: 0;
+			background: #ebebeb;
+		}
+		table{
+			height: 150px;
+			padding: 5px;
+		}
+		.demo{
+			width:280px;
+			height: 180px;
+			font-weight: bold;
+			margin: 0 auto;
+			margin-top: 100px;
+		}
+		span{
+			float: right;
+		}
+		input{
+			width: 160px;
+			height: 30px;
+			border-radius:5px; 
+			-moz-border-radius:5px; 
+			-webkit-border-radius:5px; 
+			border:1px solid #ccc;
+		}
+		.butone{
+			width: 55px;
+			height: 25px;
+			border-radius: 8px;
+			margin-left: 20px;
+			background:  #66B3FF;
+			color: white;
+		}
+		.but{
+			width: 55px;
+			height: 25px;
+			margin-left: 30px;
+			border-radius: 8px;
+			background: #66B3FF;
+			color: white;
+		} 
+		.bb{
+			width: 160px;
+			height: 30px;
+		}
